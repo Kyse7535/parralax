@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+.part1,
+.part4 {
+    height: 100vh;
+    background: url('./downtown.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.part1_superposition,
+.part2_superposition,
+.part3_superposition,
+.part4_superposition {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1_superposition,
+.part4_superposition {
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+h1 {
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+    padding: 1%;
+    letter-spacing: 4px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.title {
+    background-color: rgb(78, 77, 77);
+}
+
+h2 {
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+.part1_text,
+.part2_text,
+.part3_text {
+    padding: 4%;
+    text-align: center;
+}
+
+.part1_text {
+    background-color: #ccc;
+    color: rgb(54, 54, 54);
+}
+
+p {
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+.part2 {
+    height: 500px;
+    background: url('./city-336708_1280.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.part3 {
+    height: 400px;
+    background: url('./buildings-4898536_1280.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.part2_text {
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+}
